@@ -49,25 +49,25 @@
 			<div class="col-md-12">
 			  <!-- Nav tabs -->
 			  <ul class="nav nav-tabs" role="tablist">
-				<li role="presentation" class="active"><a href="#status" aria-controls="home" role="tab" data-toggle="tab">Summary</a></li>
+				<li role="presentation" class="active"><a href="#status" aria-controls="home" role="tab" data-toggle="tab">Resumen</a></li>
 				<li role="presentation"><a href="#log" aria-controls="log" role="tab" data-toggle="tab">Logs</a></li>
-				<li role="presentation"><a href="#output" aria-controls="output" role="tab" data-toggle="tab">Output</a></li>
+				<li role="presentation"><a href="#output" aria-controls="output" role="tab" data-toggle="tab">Salida</a></li>
 				<li role="presentation"><a href="#variables" aria-controls="variables" role="tab" data-toggle="tab">Variables</a></li>
-				<li role="presentation"><a href="#constraints" aria-controls="constraints" role="tab" data-toggle="tab">Constraints</a></li>
+				<li role="presentation"><a href="#constraints" aria-controls="constraints" role="tab" data-toggle="tab">Restricciones</a></li>
 			  </ul>
 
 			  <!-- Tab panes -->
 			  <div class="tab-content">
 				<div role="tabpanel" class="tab-pane active" id="status">
 					<table class="table table-striped">
-						<tr><td>Status<td><span id="cplxStatus" class="resField"></span>
-						<tr><td>Objective<td><span id="cplxObj" class="resField"></span>
-						<tr><td>Direction<td><span id="cplxDirection" class="resField"></span>
-						<tr><td>Number of Rows<td><span id="cplxNbRows" class="resField"></span>
-						<tr><td>Number of Columns<td><span id="cplxNbCols" class="resField"></span>
-						<tr><td>Non-zero elements<td><span id="cplxNbNZ" class="resField"></span>
-						<tr><td>Number of integer variables<td><span id="cplxNbInt" class="resField"></span>
-						<tr><td>Number of binary variables<td><span id="cplxNbBool" class="resField"></span>
+						<tr><td>Estado<td><span id="cplxStatus" class="resField"></span>
+						<tr><td>Objetivo<td><span id="cplxObj" class="resField"></span>
+						<tr><td>Dirección<td><span id="cplxDirection" class="resField"></span>
+						<tr><td>Numero de Variables<td><span id="cplxNbRows" class="resField"></span>
+						<tr><td>Numero de Restricciones<td><span id="cplxNbCols" class="resField"></span>
+						<tr><td>Elementos distintos a cero<td><span id="cplxNbNZ" class="resField"></span>
+						<tr><td>Numero de variables enteras<td><span id="cplxNbInt" class="resField"></span>
+						<tr><td>Numero de variables binarias<td><span id="cplxNbBool" class="resField"></span>
 					</table>
 				</div>
 				<div role="tabpanel" class="tab-pane" id="log">
@@ -78,14 +78,14 @@
 				</div>
 				<div role="tabpanel" class="tab-pane table-responsive" id="variables">
 					<table class="table table-bordered table-striped" id="varTable">
-						<thead><tr><th>Name<th>Value<th>Type<th>LB<th>UB<th>Objective Coef<th>Primal<th>Dual</tr></thead>
+						<thead><tr><th>Nombre<th>Valor<th>Tipo<th>LB<th>UB<th>Coeficientes del Objetivo<th>Primal<th>Dual</tr></thead>
 						<tbody>
 						</tbody>
 					</table>
 				</div>
 				<div role="tabpanel" class="tab-pane table-responsive" id="constraints">
 					<table class="table table-bordered table-striped" id="rowTable">
-						<thead><tr><th>Name<th>Value<th>LB<th>UB<th>Primal<th>Dual</tr></thead>
+						<thead><tr><th>Nombre<th>Valor<th>LB<th>UB<th>Primal<th>Dual</tr></thead>
 						<tbody>
 						</tbody>
 					</table>
@@ -95,7 +95,7 @@
 		</div>
 	</div>
 	<!--Fork me on github ribbon -->
-	<a href="https://github.com/cocoto/glpk-online" target="_blank"><img style="position: absolute; top: 0; right: 0; border: 0;" src="forkme.png" alt="Fork me on GitHub"></a>
+	<!--a href="https://github.com/cocoto/glpk-online" target="_blank"><img style="position: absolute; top: 0; right: 0; border: 0;" src="forkme.png" alt="Fork me on GitHub"></a -->
 	
 	<div class="modal fade" tabindex="-1" id="helpModal" role="dialog">
 	  <div class="modal-dialog" role="document">
